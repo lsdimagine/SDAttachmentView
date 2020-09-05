@@ -15,6 +15,9 @@
 		D9ACBFFC250302E9003FE50E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9ACBFFA250302E9003FE50E /* LaunchScreen.storyboard */; };
 		D9ACC007250302EA003FE50E /* SDAttachmentViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ACC006250302EA003FE50E /* SDAttachmentViewTests.swift */; };
 		D9ACC012250302EA003FE50E /* SDAttachmentViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ACC011250302EA003FE50E /* SDAttachmentViewUITests.swift */; };
+		D9ACC020250303C9003FE50E /* SDAttachmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ACC01F250303C9003FE50E /* SDAttachmentView.swift */; };
+		D9ACC02225030506003FE50E /* SDTextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ACC02125030506003FE50E /* SDTextParser.swift */; };
+		D9ACC024250307AC003FE50E /* MatchedPillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ACC023250307AC003FE50E /* MatchedPillView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		D9ACC00D250302EA003FE50E /* SDAttachmentViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDAttachmentViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9ACC011250302EA003FE50E /* SDAttachmentViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDAttachmentViewUITests.swift; sourceTree = "<group>"; };
 		D9ACC013250302EA003FE50E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9ACC01F250303C9003FE50E /* SDAttachmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDAttachmentView.swift; sourceTree = "<group>"; };
+		D9ACC02125030506003FE50E /* SDTextParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDTextParser.swift; sourceTree = "<group>"; };
+		D9ACC023250307AC003FE50E /* MatchedPillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedPillView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				D9ACBFEF250302E9003FE50E /* AppDelegate.swift */,
 				D9ACBFF1250302E9003FE50E /* SceneDelegate.swift */,
 				D9ACBFF3250302E9003FE50E /* ViewController.swift */,
+				D9ACC023250307AC003FE50E /* MatchedPillView.swift */,
+				D9ACC02125030506003FE50E /* SDTextParser.swift */,
+				D9ACC01F250303C9003FE50E /* SDAttachmentView.swift */,
 				D9ACBFF5250302E9003FE50E /* Main.storyboard */,
 				D9ACBFF8250302E9003FE50E /* Assets.xcassets */,
 				D9ACBFFA250302E9003FE50E /* LaunchScreen.storyboard */,
@@ -258,6 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9ACC024250307AC003FE50E /* MatchedPillView.swift in Sources */,
+				D9ACC020250303C9003FE50E /* SDAttachmentView.swift in Sources */,
+				D9ACC02225030506003FE50E /* SDTextParser.swift in Sources */,
 				D9ACBFF4250302E9003FE50E /* ViewController.swift in Sources */,
 				D9ACBFF0250302E9003FE50E /* AppDelegate.swift in Sources */,
 				D9ACBFF2250302E9003FE50E /* SceneDelegate.swift in Sources */,
